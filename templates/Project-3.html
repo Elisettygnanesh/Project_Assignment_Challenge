@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Website Login</title>
+</head>
+<body>
+<h1>Website Login</h1>
+<p>Click on which website do you want to open.</p>
+    <div class="form">
+        <form action="/web" method="POST">
+            <a href="{{url_for('facebook')}}">Facebook page</a><br>
+            <a href="{{url_for('google')}}">Google page</a><br>
+        </form>
+    </div>
+</body>
+</html>

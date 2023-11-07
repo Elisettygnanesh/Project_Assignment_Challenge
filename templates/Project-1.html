@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Website data Extracter</title>
+</head>
+<body>
+<h1>Website data Extracter</h1>
+<p>Click on which website do you want to open.</p>
+    <div class="form">
+        <form action="/web" method="POST">
+            <a href="{{url_for('scrape_youtube')}}">YouTube page</a><br>
+            <a href="{{url_for('scrape_amazon')}}">Amazon page</a><br>
+        </form>
+    </div>
+</body>
+</html>
